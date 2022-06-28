@@ -1,0 +1,63 @@
+/*---------------------------------------
+    @separator
+---------------------------------------*/
+.app-separator {
+    display: block;
+    height: 0;
+    border-bottom: 1px solid #eff2f5;
+}
+/*---------------------------------------
+    @container
+---------------------------------------*/
+.app-container {
+    padding: 0 20px;
+}
+/*---------------------------------------
+    @card
+---------------------------------------*/
+.app-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-title {
+        font-size: 16px;
+    }
+}
+/*---------------------------------------
+    @goods-wrap
+---------------------------------------*/
+.app-goods-wrap {
+    display: flex;
+    text-align: left;
+    .g-img {
+        width: 85px;
+        height: 85px;
+        border-radius: 4px;
+    }
+    .g-info-wrap {
+        flex: 1;
+        overflow: hidden;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .g-name {
+        color: #181c32;
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        white-space: inherit;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .g-desc {
+        color: #999999;
+        font-size: 12px;
+    }
+    .g-info {
+        margin-top: auto;
+        color: #181c32;
+        font-size: 12px;
+    }
+}
